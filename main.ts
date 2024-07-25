@@ -79,7 +79,7 @@ function shiftAllRainbow () {
     Strip2.showRainbow(1, 360)
     Strip3.showRainbow(1, 360)
     Strip4.showRainbow(1, 360)
-    for (let index2 = 0; index2 <= Strip1.length(); index2++) {
+    for (let index = 0; index <= Strip1.length(); index++) {
         Strip1.shift(1)
         Strip1.show()
         Strip2.shift(1)
@@ -142,7 +142,7 @@ function shiftAllSingleColor (color: number) {
     Strip2.showColor(color)
     Strip3.showColor(color)
     Strip4.showColor(color)
-    for (let index3 = 0; index3 <= Strip1.length(); index3++) {
+    for (let index = 0; index <= Strip1.length(); index++) {
         Strip1.shift(1)
         Strip1.show()
         Strip2.shift(1)
